@@ -6,7 +6,7 @@ const API_KEY =
     "t1pJMX9l-VW7NvpwM6DaQ40QMXN5wtkDuOV0LxZzGBY";
 
 const IMAGEURL =
-    `https://api.unsplash.com/photos/random/?client_id=${API_KEY}&orientation=landscape&query=coding`;
+    `https://api.unsplash.com/photos/random/?client_id=${API_KEY}&orientation=landscape&query=landscape`;
 
 
 function saveBackGround(url, city, country, name) {
@@ -59,7 +59,7 @@ function getBackGround() {
                 saveBackGround(full, city, country, name);
             }else{
                  // 만약에 실패하면 다시 요청.
-               // getBackGround();
+               getBackGround();
             }
             
         });
