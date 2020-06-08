@@ -139,7 +139,7 @@ function init() {
         // time.innerText = `${seconds < 10 ? `0${seconds}` : seconds}`;
 
         // body.appendChild(time);
-    }
+    // }
 
 
 
